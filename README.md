@@ -1,4 +1,4 @@
-# action-html-to-markdown
+# Action HTML to Markdown
 
 Convert HTML Text to Markdown Text
 
