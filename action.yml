@@ -1,4 +1,4 @@
-name: 'Convert HTML to Markdown'
+name: 'Convert HTML text to Markdown text'
 description: 'Action converting HTML text to Markdown text using turndown library'
 inputs:
   text:
