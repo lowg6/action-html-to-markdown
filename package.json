@@ -4,7 +4,8 @@
   "description": "Action converting HTML text to Markdown text using turndown library",
   "main": "index.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "node ./dist/index.js"
   },
   "keywords": [],
   "author": "lowg6",
