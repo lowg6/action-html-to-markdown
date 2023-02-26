@@ -1,5 +1,9 @@
 name: 'Convert HTML text to Markdown text'
 description: 'Action converting HTML text to Markdown text using turndown library'
+author: 'Hiroki Oi'
+branding:
+  icon: file-text
+  color: blue
 inputs:
   text:
     description: 'HTML text to convert'

@@ -8,7 +8,7 @@
     "test": "node ./dist/index.js"
   },
   "keywords": [],
-  "author": "lowg6",
+  "author": "Hiroki Oi",
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.10.0",
