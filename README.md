@@ -2,7 +2,7 @@
 
 Convert HTML Text to Markdown Text
 
-Based on [turndown NPM package](https://www.npmjs.com/package/turndown)
+This action is using [turndown](https://github.com/mixmark-io/turndown)
 
 
 # Usage
