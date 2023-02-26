@@ -29,28 +29,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const Core = __importStar(require("@actions/core"));
 const turndown_1 = __importDefault(require("turndown"));
 const turndown_plugin_gfm_1 = require("turndown-plugin-gfm");
-// const htmlText = Core.getInput('html-text')
-const htmlText = `<h2>WHY</h2>
-
-
-* ページ表示速度を改善したい
-* Core Web Vitalsを改善したい。
-* システムの保守性を恒久的に高めたい。
-* [デザインシステムの実装](https://app.asana.com/0/1203626492432925/1203675611979309/f)をしたい。
-
-
-<h2>WHERE</h2>
-フロントエンド全体
-
-
-<h2>WHAT</h2>
-
-- [ ] ディレクトリ構成にNext.jsを組み込む
-
-
-┆Issue is synchronized with this [Asana task](https://app.asana.com/0/1203646190859733/1204002052005137) by [Unito](https://www.unito.io)
-┆Section / Column: Weekly Sprint
-`;
+const htmlText = Core.getInput('html-text');
 Core.info('Input HTML Text: ' + htmlText);
 const markdownText = new turndown_1.default({
     headingStyle: 'atx',
