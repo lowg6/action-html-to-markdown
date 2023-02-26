@@ -36,4 +36,4 @@ jobs:
 
 # License
 
-This project is released under the MIT License.
+This project is released under the MIT License
